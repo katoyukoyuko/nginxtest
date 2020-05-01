@@ -83,3 +83,4 @@ production:
   database: nginxtest_production
   username: nginxtest
   password: <%= ENV['NGINXTEST_DATABASE_PASSWORD'] %>
+  port: 5432
